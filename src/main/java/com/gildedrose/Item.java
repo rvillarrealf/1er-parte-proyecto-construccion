@@ -65,6 +65,6 @@ public class Item {
 
     @Override
     public String toString() {
-        return this.name + ", " + this.sellIn + ", " + this.quality;
+        return String.format("Item{name='%s', sellIn=%d, quality=%d}", name, sellIn, quality);
     }
 }
